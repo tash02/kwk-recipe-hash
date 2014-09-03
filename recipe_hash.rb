@@ -1,22 +1,8 @@
 #code your solutions here
 require 'pry'
 
-#1:
-def empty_hash
-  #code your solution here directly after the puts
-  puts mac_and_cheese_recipe = {}
-end
-
-#2
+#1
 def recipe_ingredients
-  #code your solution here. You'll want to call your hash name directly after the puts
-  mac_and_cheese_recipe = {}
-  mac_and_cheese_recipe[:elbow_pasta] = "2 cups"
-  mac_and_cheese_recipe[:butter] = "1/2 stick"
-  mac_and_cheese_recipe[:whole_milk ] = "1 cup"
-  mac_and_cheese_recipe[:shredded_cheddar_cheese] = "3 cups"
-  puts mac_and_cheese_recipe
-
   mac_and_cheese_recipe = {
     :elbow_pasta => "2 cups",
     :butter => "1/2 stick",
@@ -36,7 +22,7 @@ def amount_of_cheese
     :shredded_cheddar_cheese => "3 cups"
   }
 
-  puts mac_and_cheese_recipe[:shredded_cheddar_cheese]
+  mac_and_cheese_recipe[:shredded_cheddar_cheese]
 
 end
 
