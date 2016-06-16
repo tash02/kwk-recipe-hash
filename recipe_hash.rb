@@ -2,34 +2,40 @@
 
 #1
 
-  mac_and_cheese_recipe = {
-    :elbow_pasta => "2 cups",
-    :butter => "1/2 stick",
-    :whole_milk => "1 cup",
-    :shredded_cheddar_cheese => "3 cups"
-  }
+    perfect_10_ingredients = {
+      :almond_flour => "2 cups",
+      :gluten_freewhole oats => "1 cup",
+      :kosher_salt => "1/2 tea spoon",
+      :baking_powder  => "1/2 tea spoon",
+      :baking_soda => "1/4 tea spoon",
+      :xanthan_Gum => "1/2 tea spoon",
+      :slivered_almonds => "1/4 cup",
+      :mini_dark_chocolate_chips => "3/4 cup",
+      :olive_oil => "1/2 cup",
+      :agave => "1/4 cup"
+    }
 
  #2
 
-def recipe_ingredients(mac_and_cheese_recipe)
-	mac_and_cheese_recipe
+def recipe_ingredients(perfect_10_recipe)
+	perfect_10_recipe
 
 end
 
 #3:
-def amount_of_cheese(mac_and_cheese_recipe)
+def amount_of_chocolate_chips(perfect_10_recipe)
   # you'll need to include your whole hash in this method on the lines before the puts
   #code your solution here directly after the puts
 
-  mac_and_cheese_recipe[:shredded_cheddar_cheese]
+  perfect_10_recipe[:mini_dark_chocolate_chips]
 
 end
 
 #4:
-def ingredients_and_amounts(mac_and_cheese_recipe)
+def ingredients_and_amounts(perfect_10_recipe)
   #you'll need to include your whole hash in this method
   #code your solution here
-  mac_and_cheese_recipe.each do |key, value|
+  perfect_10_recipe.each do |key, value|
     puts "#{key} #{value}"
   end
 
@@ -37,30 +43,27 @@ end
 
 
 #5:
-def ingredients(mac_and_cheese_recipe)
+def ingredients(perfect_10_recipe)
   #you'll need to include your whole hash in this method
   #code your solution here
 
-  mac_and_cheese_recipe.each_key { |key| puts key }
+  perfect_10_recipe.each_key { |key| puts key }
 end
 
 #6:
-def amounts(mac_and_cheese_recipe)
+def amounts(perfect_10_recipe)
   #you'll need to include your whole hash in this method
   #code your solution here
 
-  mac_and_cheese_recipe.each_value do |value|
+  perfect_10_recipe.each_value do |value|
     puts value
   end
 end
 
 #7:
-def number_ingredients(mac_and_cheese_recipe)
+def number_ingredients(perfect_10_recipe)
   #you'll need to include your whole hash in this method
   #code your solution here
 
-  mac_and_cheese_recipe.length
+  perfect_10_recipe.length
 end
-
-
-
