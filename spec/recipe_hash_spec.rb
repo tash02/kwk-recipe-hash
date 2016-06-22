@@ -64,7 +64,7 @@ describe 'RECIPE_HASH' do
 
   describe '#number_ingredients' do
     it 'returns the total number of ingredients' do
-      expect(number_ingredients(@perfect_10_ingredients)).to eq 4
+      expect(number_ingredients(@perfect_10_ingredients)).to eq 10
     end
   end
 
