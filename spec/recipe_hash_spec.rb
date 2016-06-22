@@ -23,7 +23,7 @@ describe 'RECIPE_HASH' do
         :almond_flour => "2 cups",
         :gluten_free_whole_oats => "1 cup",
         :kosher_salt => "1/2 tea spoon",
-        :baking_powder  => "1/2 tea spoon",
+        :baking_powder => "1/2 tea spoon",
         :baking_soda => "1/4 tea spoon",
         :xanthan_Gum => "1/2 tea spoon",
         :slivered_almonds => "1/4 cup",
@@ -43,7 +43,7 @@ describe 'RECIPE_HASH' do
   describe '#ingredients_and_amounts' do
     it 'prints all ingredients and amounts' do
       output = capture_stdout { ingredients_and_amounts(@perfect_10_ingredients) }
-      expect(output).to eq "almond_flour 2 cups\ngluten_free_whole_oats 1 cup\nkosher_salt 1/2 tea spoon\nbaking_powder  1/2 tea spoon\nbaking_soda 1/4 tea spoon\nxanthan_Gum 1/2 tea spoon\nslivered_almonds 1/4 cup\nmini_dark_chocolate_chips 3/4 cup\nolive_oil 1/2 cup\nagave 1/4 cup\n"
+      expect(output).to eq "almond_flour 2 cups\ngluten_free_whole_oats 1 cup\nkosher_salt 1/2 tea spoon\nbaking_powder 1/2 tea spoon\nbaking_soda 1/4 tea spoon\nxanthan_Gum 1/2 tea spoon\nslivered_almonds 1/4 cup\nmini_dark_chocolate_chips 3/4 cup\nolive_oil 1/2 cup\nagave 1/4 cup\n"
     end
   end
 
