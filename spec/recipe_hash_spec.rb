@@ -50,7 +50,7 @@ describe 'RECIPE_HASH' do
   describe '#ingredients' do
     it 'prints just the ingredients without the amounts' do
       output = capture_stdout { ingredients(@perfect_10_ingredients) }
-      expect(output).to eq "almond_flour\ngluten_free_whole_oats\nkosher_salt\nbaking_powder\nbaking_soda\nxanthan_Gum\nslivered_almonds\nmini_dark_chocolate_chips\nolive_oil\n"
+      expect(output).to eq "almond_flour\ngluten_free_whole_oats\nkosher_salt\nbaking_powder\nbaking_soda\nxanthan_Gum\nslivered_almonds\nmini_dark_chocolate_chips\nolive_oil\nagave\n"
     end
 
   end
